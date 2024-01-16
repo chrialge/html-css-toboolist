@@ -1,3 +1,27 @@
+/* general */
+
+.color-orange{
+    background-color: var(--bool-orange);
+}
+.color-purple{
+    background-color: var(--bool-violet);
+}
+.color-lightgreen{
+    background-color: var(--bool-lightgreen);
+}
+.color-pink{
+    background-color: var(--bool-pink);
+}
+.color-green{
+    background-color: rgba(100, 192, 169, 1);
+}
+.color-azzure{
+    background-color: var(--bool-azzure);
+}
+body{
+    background-color: lightgrey;
+}
+
 :root{
     --bool-azzure:rgba(76, 174, 234, 1);
     --bool-violet:rgba(156, 114, 228, 1);
@@ -12,9 +36,12 @@
      box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-
-    color: #676b72;
+     color: #676b72;
 }
+/* end general */
+
+
+/* header */
 header{
     padding: 0.5rem 2rem;
     background-color: white;
@@ -28,19 +55,26 @@ header{
     font-size: 50px;
     font-weight: 710;
     color: black;
+    vertical-align: middle;
 }
-body{
-    background-color: lightgrey;
-}
+/* end header */
+
+
+/* general of main */
 #master-container{
-    margin: 70px;
+margin-top: 50px;
 }
 .container{
+    margin: auto;
     background-color: white;
     width: 1000px;
     margin-bottom: 2px;
     padding: 1rem 1rem;
 }
+/* /general of main */
+
+
+/* head of main */
 .button{
     font-size: 15px;
     padding: 0.7rem 1.1rem;
@@ -57,13 +91,13 @@ body{
     color: var(--bool-shadow);
     border-color: var(--bool-shadow);
 }
+/* head of main */
+
+/* corpe of main */
 h2{
     color:black;
     font-size: 25px;
     font-weight: bolder;
-}
-p{
-    font-weight:600;
 }
 .riquadri{
     font-weight: 600;
@@ -72,9 +106,7 @@ p{
     border-radius: 18px;
     padding: 0.5rem 1rem;
 }
-.color-azzure{
-    background-color: var(--bool-azzure);
-}
+
 .cross{
     
     color: red;
@@ -95,18 +127,7 @@ section{
     margin: 2rem;
     line-height: 45px;
 }
-.color-orange{
-    background-color: var(--bool-orange);
+.list{
+    list-style-type: none;
 }
-.color-purple{
-    background-color: var(--bool-violet);
-}
-.color-lightgreen{
-    background-color: var(--bool-lightgreen);
-}
-.color-pink{
-    background-color: var(--bool-pink);
-}
-.color-green{
-    background-color: rgba(100, 192, 169, 1);
-}
+/* /corpe of main */
