@@ -4,11 +4,81 @@
     --bool-orange: rgba(242, 158, 51, 1);
     --bool-pink:rgba(216, 99, 160, 1);
     --bool-green:rgba(176, 201, 38, 1);
-    --bool-shadow: rgba(0,0,0,0.5);
+    --bool-shadow: rgba(0,0,0,0.2);
 }
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
+     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
 
+    color: #676b72;
+}
+header{
+    padding: 0.5rem 2rem;
+    background-color: white;
+}
+#logo{
+    width: 70px;
+    vertical-align: middle;
+}
+#logo-text{
+    display: inline-block;
+    font-size: 50px;
+    font-weight: 710;
+    color: black;
+}
+body{
+    background-color: lightgrey;
+}
+#master-container{
+    margin: 70px;
+}
+.container{
+    background-color: white;
+    width: 1000px;
+    margin-bottom: 2px;
+    padding: 1rem 1rem;
+}
+.button{
+    font-size: 15px;
+    padding: 0.7rem 1.1rem;
+    border-radius: 7px;
+    font-weight: bolder;
+}
+.azzure{
+    background-color: var(--bool-azzure);
+    border: none;
+    color: white;
+}
+.white{
+    background-color: white;
+    color: var(--bool-shadow);
+    border-color: var(--bool-shadow);
+}
+h2{
+    color:black;
+    font-size: 25px;
+    font-weight: bolder;
+}
+p{
+    font-weight:600;
+}
+.riquadri{
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    border-radius: 18px;
+    padding: 0.5rem 1rem;
+}
+.color-azzure{
+    background-color: var(--bool-azzure);
+}
+.cross{
+    
+    color: red;
+    padding: 0.2rem;
+    border: 2px red solid;
+    border-radius: 100%; 
+}
