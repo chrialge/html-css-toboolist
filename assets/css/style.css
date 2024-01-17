@@ -13,7 +13,7 @@
     background-color: var(--bool-pink);
 }
 .color-green{
-    background-color: rgba(100, 192, 169, 1);
+    background-color: var(--bool-green);
 }
 .color-azzure{
     background-color: var(--bool-azzure);
@@ -23,6 +23,7 @@ body{
 }
 
 :root{
+    --bool-green: rgba(100, 192, 169, 1);
     --bool-azzure:rgba(76, 174, 234, 1);
     --bool-violet:rgba(156, 114, 228, 1);
     --bool-orange: rgba(242, 158, 51, 1);
@@ -62,9 +63,12 @@ header{
 
 /* general of main */
 #master-container{
-margin-top: 50px;
+ margin: 2rem 0;
+ 
 }
 .container{
+    border-radius: 1.25rem;
+    box-shadow: 0 0 10px var(--bool-shadow); 
     margin: auto;
     background-color: white;
     width: 1000px;
