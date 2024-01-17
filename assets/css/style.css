@@ -54,7 +54,7 @@ header{
     display: inline-block;
     font-size: 50px;
     font-weight: 710;
-    color: black;
+    color: rgba(41, 57, 78, 1);
     vertical-align: middle;
 }
 /* end header */
