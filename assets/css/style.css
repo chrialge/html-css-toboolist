@@ -84,6 +84,7 @@ header{
     padding: 0.7rem 1.1rem;
     border-radius: 7px;
     font-weight: bolder;
+    display: inline-block;
 }
 .azzure{
     background-color: var(--bool-azzure);
